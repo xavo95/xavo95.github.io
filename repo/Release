@@ -1,0 +1,11 @@
+Origin: XFrost private repo
+Label: XFrost research
+Suite: stable
+Version: 1.0
+Codename: xfrost
+Architectures: iphoneos-arm
+Components: main
+Description: My private repo with bunch of stuff
+MD5Sum:
+ 912ecfc389d2c35d1c7bd4a6f476fd4d 547 Packages
+ 3c6bf37f2917df4704d880649603e89a 423 Packages.bz2
