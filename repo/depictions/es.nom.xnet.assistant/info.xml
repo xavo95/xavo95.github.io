@@ -1,38 +1,27 @@
 <package>
 	<id>es.nom.xnet.assistant</id>
 	<name>Assistant</name>
-	<version>1.0-1</version>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
+			<otherVersions>unconfirmed</otherVersions>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
-		<description><![CDATA[
-		You can also have<br/> 
-		a multi-line item.
-		]]>
-		</description>
+		<description>Set of tools to take full potential of yalu102.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
-		</screenshot>		
-		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
+			<description>Assistant Main Screen</description>
+			<image>assistant-main.jpg</image>
 		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<change>Initial release</change>
 	</changelog>
 	<links>
 		<link>
