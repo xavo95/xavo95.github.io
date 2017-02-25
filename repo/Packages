@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Xavier Perarnau <xavo95@icloud.com>
 Depends: mobilesubstrate
 Filename: debs/es.nom.xnet.assistant_1.0_iphoneos-arm.deb
-Size: 13576084
-MD5sum: 9de82b4441b3b94aff40c3e7ce20f7b8
-SHA1: 9bed3bfaca43652c8f2dd12171ff870c4ce24c4a
-SHA256: d911621e96c85c3941f9764b8908aba5fb44ed77c5f18036a08ac9f7e0a0339c
+Size: 13576134
+MD5sum: 0741deb7e66f771895c97cb505ffbcea
+SHA1: b83d0336946d776591883bddb99ae72a3cc480d6
+SHA256: 2312217a0d3756523d210ba5124574eab05c5a010540786633da12341fca7661
 Section: Utilities
 Homepage: https://xavo95.github.io
 Description: Little helper for after ops from yalu102
