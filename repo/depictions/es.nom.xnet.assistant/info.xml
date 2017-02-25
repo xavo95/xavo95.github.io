@@ -9,7 +9,7 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
+		<package>No dependecies</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Set of tools to take full potential of yalu102.</description>
