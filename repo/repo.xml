@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/xavo95_Official</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+		<link>
+			<name>Follow me on GitHub</name>
+			<url>https://github.com/xavo95</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+	</footerlinks>
+</repo>
