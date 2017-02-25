@@ -1,0 +1,28 @@
+# Setup
+title:        xavo95 Blog
+tagline:      My blog about reseach, music and my life
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       xavo95
+  url:        https://github.com/xavo95
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-coffeescript
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
+# - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jemoji
+
+#Others
+markdown: kramdown
+permalink: /blog/:categories/:year/:month/:day/:title

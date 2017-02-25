@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+gemspec
+
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-coffeescript'
+gem 'jekyll-gist'
+gem 'jekyll-github-metadata'
+gem 'jekyll-redirect-from'
+gem 'jekyll-sass-converter'
+gem 'jekyll-seo-tag'
+gem 'jemoji'
+gem 'kramdown'
+gem 'pygments.rb'

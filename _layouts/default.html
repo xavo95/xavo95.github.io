@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  {% include head.html %}
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      
+      {{ content }}
+
+      {% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>

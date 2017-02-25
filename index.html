@@ -1,0 +1,20 @@
+---
+layout: default
+title: {{ site.name }}
+author: xavo95
+description: My blog about reseach, music and my life
+---
+
+<div id="home">
+  <h1>My site</h1>
+  <p>Welcome to my new site</p>
+  <p>These are my orgs(operated by myself only):</p>
+  <ul>
+    {% for org_hash in site.data.orgs %}
+      {% assign org = org_hash[1] %}
+      <li>
+        <a href="https://github.com/{{ org.username }}">{{ org.name }}</a>({{ org.members | size }} members) with a page on <a href="https://{{ org.username }}.github.io">https://{{ org.username }}.github.io</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

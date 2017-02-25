@@ -1,0 +1,68 @@
+---
+layout: default
+title: Blog
+author: xavo95
+description: This section has the general post index
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <h2 id="index">Index</h2>
+  <ul>
+    <li><a href="#chronological-order">Chronological order</a></li>
+    <li><a href="#category-order">Category order</a></li>
+  </ul>
+  <h2 id="chronological-order">Chronological order</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% assign firstCat = post.categories | first %}
+      {% assign secondCat = post.categories | last %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; {% if firstCat == secondCat %}<a href="https://xavo95.github.io/{{ post.categories }}">{{ post.categories | first | capitalize }}</a>{% else %}<a href="https://xavo95.github.io/{{ post.categories | first }}">{{ post.categories | first | capitalize }}</a> &raquo; <a href="https://xavo95.github.io/{{ post.categories | first }}/{{ post.categories | last }}">{{ post.categories | last | capitalize }}</a>{% endif %} &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2 id="category-order">Category order</h2>
+  <ul>
+    <li><a href="https://xavo95.github.io/research">Research Category</a></li>
+    {% for post in site.categories['research'] %}
+      <ul class="posts">
+        {% assign firstCat = post.categories | first %}
+        {% assign secondCat = post.categories | last %}
+        {% if firstCat == secondCat %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      </ul>
+    {% endfor %}
+    <ul>
+      <li><a href="https://xavo95.github.io/research/slack">Slack Category</a></li>
+      {% for post in site.categories['slack'] %}
+        <ul class="posts">
+          {% assign firstCat = post.categories | first %}
+          {% assign secondCat = post.categories | last %}
+          {% if firstCat != secondCat %}
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          </ul>
+      {% endfor %}
+    </ul>
+    <li><a href="https://xavo95.github.io/security">Security Category</a></li>
+    {% for post in site.categories['security'] %}
+      <ul class="posts">
+        {% assign firstCat = post.categories | first %}
+        {% assign secondCat = post.categories | last %}
+        {% if firstCat == secondCat %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      </ul>
+    {% endfor %}
+    <li><a href="https://xavo95.github.io/music">Music Category</a></li>
+    {% for post in site.categories['music'] %}
+      <ul class="posts">
+        {% assign firstCat = post.categories | first %}
+        {% assign secondCat = post.categories | last %}
+        {% if firstCat == secondCat %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      </ul>
+    {% endfor %}
+  </ul>
+</div>

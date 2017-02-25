@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign author = site.data.people[page.author] %}
+<h2>{{ page.title }} - Category: {{ page.categories }}</h2>
+<p class="meta">{{ page.date | date_to_string }} by {{ author.name }}</p>
+
+{{ content }}
+
+<hr>
+
+<div class="notecomments">
+				{% include disqus.html %}	 
+</div>
