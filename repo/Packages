@@ -15,3 +15,20 @@ Author: Xavier Perarnau <xavo95@icloud.com>
 Depiction: https://xavo95.github.io/repo/depictions/?p=es.nom.xnet.assistant
 Name: Assistant
 
+Package: es.nom.xnet.iosbinarypack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Xavier Perarnau <xavo95@icloud.com>
+Depends: mobilesubstrate
+Filename: debs/es.nom.xnet.iosbinarypack_1.0_iphoneos-arm.deb
+Size: 6194600
+MD5sum: 274ad8d332b61927f800d626dcf80528
+SHA1: a61e967ed7384958876fce21f19e56bb2bf030d4
+SHA256: 6a25e99e536a59cea9851dc2c25191a9faefb619ecbb56d86e2e20879ddc491b
+Section: Utilities
+Homepage: https://xavo95.github.io
+Description: Little helper for after ops from yalu102
+Author: Xavier Perarnau <xavo95@icloud.com>
+Depiction: https://xavo95.github.io/repo/depictions/?p=es.nom.xnet.iosbinarypack
+Name: iOS Binary Pack
+
