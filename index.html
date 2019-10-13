@@ -13,7 +13,6 @@ description: My blog about reseach, music and my life
     {% for org_hash in site.data.orgs %}
       {% assign org = org_hash[1] %}
       <li>
-        <script data-ad-client="ca-pub-9320876824823296" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <a href="https://github.com/{{ org.username }}">{{ org.name }}</a>({{ org.members | size }} members) with a page on <a href="https://{{ org.username }}.github.io">https://{{ org.username }}.github.io</a>
       </li>
     {% endfor %}
